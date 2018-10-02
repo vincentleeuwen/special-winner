@@ -6,7 +6,7 @@ import Header from './header';
 // Code-splitting is automated for routes
 import Home from '../routes/home';
 import Profile from '../routes/profile';
-import Stuff from '../routes/stuff';
+import Clock from '../routes/clock';
 
 export default class App extends Component {
 	
@@ -26,7 +26,7 @@ export default class App extends Component {
 					<Home path="/" />
 					<Profile path="/profile/" user="me" />
 					<Profile path="/profile/:user" />
-					<Stuff path="/stuff/" />
+					<Clock path="/clock/" />
 				</Router>
 			</div>
 		);
